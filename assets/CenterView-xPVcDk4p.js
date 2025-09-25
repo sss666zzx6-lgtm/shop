@@ -1,0 +1,1 @@
+import{_ as r,c as s,o as a,b as c,a as o,q as i,j as _}from"./index-DmC6TmDH.js";/* empty css                   */const l={};function m(d,e){const n=i,t=_("RouterView");return a(),s("main",null,[e[0]||(e[0]=c("h1",null,"个人中心",-1)),o(n),o(t)])}const f=r(l,[["render",m]]);export{f as default};
