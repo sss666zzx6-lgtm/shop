@@ -1,0 +1,1 @@
+import{M as a,V as n,N as c,y as i}from"./index-CCvivBlI.js";const m=a("profile",()=>{const e=n(),s=c({nick:"小飞",birthday:"",phone:"11111111",email:"666666666@qq.com"}),r=i(()=>({account:e.userName||e.user?.name||"guest",gender:e.user?.sex||"保密",...s}));function t(o){Object.assign(s,o)}return{info:r,save:t}},{persist:{paths:["base"]}});export{m as u};
