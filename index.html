@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html lang="">
+  <script>
+  (function () {
+    const redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect !== location.href) {
+      history.replaceState(null, null, redirect);
+    }
+  })();
+</script>
   <head>
     <meta charset="UTF-8">
     <link rel="icon" href="/shop/favicon.ico">
